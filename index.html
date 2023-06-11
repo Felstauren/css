@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>css</title>
+
+    </head>
+
+    <style>
+        * {
+            font-family:Arial, Helvetica, sans-serif;
+            font-size: 22px ;
+            font-weight: 700;
+            text-align: center;
+        }
+    </style>
+    
+    <body>
+        <div class="title">Hello World!</div>
+        <div class="title">Hello again!</div>
+        <p>Hi ...</p>
+
+        <style>
+            .title {
+                color:red;
+            }
+        </style>
+
+        <div id="text">My Awesome 90's Page</div>
+
+        <style>
+            #text {
+                background-color:yellow;
+            }
+        </style>
+<p></p>
+<div>
+    <div class="subsection header">Latest Posts</div>
+    <p class="subsection preview">This is where a preview for a post might go.</p>
+</div>
+
+<style>
+    .subsection.header {
+        color:green;
+    }
+</style>
+
+
+<p></p>
+<div>
+    <div class="subsection header">Latest Posts</div>
+    <p class="subsection" id="preview">
+        This is where a preview for a post might go.
+    </p>
+</div>
+
+<style>
+    .subsection#preview {
+        color:orange;
+    }
+</style>
+
+
+<p></p>
+
+<div class="ancestor">
+    <!--A-->
+    <div class="contents">
+        <!--B-->
+        <div class="contents"><!--C--></div>
+    </div>
+</div>
+
+<div class="contents"></div>
+<!--D-->
+
+<style>
+    .ancestor .contents {
+        color:aqua;
+    }
+</style>
+
+<!--Learning this section-->
+ 
+
+<p></p>
+<h1>Color</h1>
+<style>
+    h1 {
+        color:rgb(100,0,127);
+        background-color: bisque;
+    }
+    </style>
+
+
+
+</body>
